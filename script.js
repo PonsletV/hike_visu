@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function getExifDescription(imgElement, callback) {
         EXIF.getData(imgElement, function() {
             let description = EXIF.getTag(this, 'ImageDescription') || ' ';
-            const dateTimeOriginal = EXIF.getTag(this, 'DateTimeOriginal') || ' ';
+            let dateTimeOriginal = EXIF.getTag(this, 'DateTimeOriginal') || ' ';
 
             // Fix encoding issues for the description
             try {
@@ -91,6 +91,24 @@ document.addEventListener('DOMContentLoaded', function() {
             } catch (e) {
                 console.error("Error decoding description:", e);
             }
+
+            if (dateTimeOriginal && dateTimeOriginal.trim() !== '') {
+            try {
+                // EXIF dates are typically in "YYYY:MM:DD HH:MM:SS" format
+                const dateParts = dateTimeOriginal.split(' ');
+                if (dateParts.length === 2) {
+                    const datePart = dateParts[0].replace(/:/g, '/'); // Replace colons with slashes
+                    const timePart = dateParts[1].substring(0, 5); // Get only HH:MM
+
+                    // Combine in the desired format: YYYY/MM/DD HH:MM
+                    dateTimeOriginal = `${datePart} ${timePart}`;
+                    console.log(dateTimeOriginal)
+                }
+            } catch (e) {
+                console.error("Error formatting date:", e);
+                // If there's an error, keep the original value
+            }
+        }
             callback({ description, dateTimeOriginal });
         });
     }
@@ -414,13 +432,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const seconds = Math.floor(milliseconds/1000);
         const hours = Math.floor(seconds / 3600);
         const minutes = Math.floor((seconds % 3600) / 60);
-        const remainingSeconds = Math.floor(seconds % 60);
+        // const remainingSeconds = Math.floor(seconds % 60);
 
         return [
             hours.toString().padStart(2, '0'),
             minutes.toString().padStart(2, '0'),
-            remainingSeconds.toString().padStart(2, '0')
-        ].join(':');
+            // remainingSeconds.toString().padStart(2, '0')
+        ].join('h');
     }
 
     function loadAllTracks() {
