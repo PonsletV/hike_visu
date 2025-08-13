@@ -85,8 +85,28 @@ h1, h2, h3, h4, h5, h6 {
     padding: 30px;
     border-top: 1px solid var(--border-color);
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain; /* Prevents overscroll from affecting the whole page */
     min-height: 100px;
     box-shadow: var(--shadow-sm);
+    touch-action: pan-y;
+}
+
+#info-panel * {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#info-panel p,
+#info-panel h2,
+#info-panel .image-description,
+#info-panel .image-datetime {
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
 }
 
 .image-info {
