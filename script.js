@@ -384,7 +384,6 @@ document.addEventListener('DOMContentLoaded', function() {
     function createTrackInfoBox(gpxLayer) {
         if (!gpxLayer) return null;
 
-        // Get track information
         const distance = gpxLayer.get_distance() ? (gpxLayer.get_distance() / 1000).toFixed(2) + ' km' : 'N/A';
         const startTime = gpxLayer.get_start_time() ? new Date(gpxLayer.get_start_time()).toLocaleTimeString(undefined, timeOptions) : 'N/A';
         const endTime = gpxLayer.get_end_time() ? new Date(gpxLayer.get_end_time()).toLocaleTimeString(undefined, timeOptions) : 'N/A';
