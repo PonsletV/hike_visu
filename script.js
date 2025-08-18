@@ -290,6 +290,26 @@ document.addEventListener('DOMContentLoaded', function() {
             imagesContainer.before(trackInfoBox);
         }
 
+        // Hide all markers first
+        for (let i = 0; i < trackMarkers.length; i++) {
+            if (trackMarkers[i]) {
+                for (let j = 0; j < trackMarkers[i].length; j++) {
+                    if (trackMarkers[i][j]) {
+                        map.removeLayer(trackMarkers[i][j]);
+                    }
+                }
+            }
+        }
+
+        // Show only markers for the current track
+        if (trackMarkers[trackIndex]) {
+            for (let j = 0; j < trackMarkers[trackIndex].length; j++) {
+                if (trackMarkers[trackIndex][j]) {
+                    map.addLayer(trackMarkers[trackIndex][j]);
+                }
+            }
+        }
+
         const fragment = document.createDocumentFragment()
 
         track.images.forEach((image, imageIndex) => {
@@ -444,13 +464,13 @@ document.addEventListener('DOMContentLoaded', function() {
         tracks.forEach((track, index) => {
             loadTrack(track, index);
             addImageMarkers(track.images, index);
-        });
-
-        // Display the first track's info by default
-        if (tracks.length > 0) {
-            const firstTrack = tracks[currentTrackIndex];
-            updateInfoPanel(firstTrack, currentTrackIndex);
-        }
+        }).then(() => {
+            // Display the first track's info by default
+            if (tracks.length > 0) {
+                const firstTrack = tracks[currentTrackIndex];
+                updateInfoPanel(firstTrack, currentTrackIndex);
+            }
+        })
     }
 
     // fetch json data and load all tracks and markers

@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .image-info img {
     max-width: 95%;
-    max-height: 600px;
+    max-height: 1000px;
     width: auto;
     height: auto;
 }
