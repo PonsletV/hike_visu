@@ -3,7 +3,7 @@
         "gpxFile": "data/gpx/activity_19651984169.gpx",
         "dayTitle": "Jour 1 | Le grand départ",
         "color": "#0000FF",
-        "dayDescription": "Départ d'Hendaye tôt le matin, je grimpe jusqu'à la Rhune en suivant à peu près le GR10, je me sens bien en jambes donc je continues jusqu'à un chouette spot de bivouac avec robinet d'eau.",
+        "dayDescription": "Départ d'Hendaye tôt le matin, je suis plus ou moins le GR10 pour sortir de la ville jusqu'au col d'Ibardin, puis j'entame la montée à la Rhune (905m), où je vais déjeuner. Après la redescente, je m'arrête quelques minutes dans un petit restaurant au col de Lizarrieta. Je me sens bien en jambes donc je continues jusqu'à un chouette spot de bivouac avec robinet d'eau.",
         "images": [
             {
                 "url": "data/images/2025_07_06/DSC07813.jpg"
@@ -41,7 +41,7 @@
         "gpxFile": "data/gpx/activity_19661801682.gpx",
         "dayTitle": "Jour 2 | Pays Basque : fougères et brume",
         "color": "#FF0000",
-        "dayDescription": "Après une mauvaise nuit (matelas qui se dégonfle...), débuts difficiles dans la boue puis ravito et restaurant à Elizondo, je pousse jusqu'aux Aldudes ce qui me met déjà 1 jour en avance par rapport à la plupart des topos",
+        "dayDescription": "Après une mauvaise nuit (matelas qui se dégonfle...), les débuts sont difficiles car le chemin est très boueux. En milieu de matinée, je rencontre Christian, un Catalan qui fait le GR11. On descend à Elizondo où on mange au resto, j'en profite pour faire un petit ravito (saucisson, fromage, pâtes...). L'après-midi, je pousse jusqu'aux Aldudes, Christian continues vers le Sud (les Aldudes, c'est en France, donc le GR11 n'y passe pas). C'est encore une longue journée, mais ça me permet de finir la 3eme étape des topos 'officiels' et je peux bivouaquer facilement dans le village.",
         "images": [
             {
                 "url": "data/images/2025_07_07/DSC07842.jpg"
@@ -70,7 +70,7 @@
         "gpxFile": "data/gpx/activity_19681331679.gpx",
         "dayTitle": "Jour 3 | Pays Basque : Pottoks et Compostelle",
         "color": "#00FF00",
-        "dayDescription": "Les jambes commencent à chauffer fort, la journée est solitaire et rude",
+        "dayDescription": "Je commence la journée à 9h car j'attends l'ouverture de la supérette des Aldudes. Les jambes commencent à chauffer fort, la journée est solitaire et rude. Le soir, je trouve un super spot de bivouac au sud d'Urkulu, à peu près abrité du vent.",
         "images": [
             {
                 "url": "data/images/2025_07_08/DSC07863.jpg"
@@ -105,7 +105,7 @@
         "gpxFile": "data/gpx/activity_19681389404.gpx",
         "dayTitle": "Jour 4 | Pays Basque : l'attaque des ptits taons",
         "color": "#FF00FF",
-        "dayDescription": "Super étape dans les pâturages malgré les dizaines de taons qui me tournent autour pendant une bonne partie de la matinée.",
+        "dayDescription": "Super étape dans les pâturages. Le matin est pénible à cause de dizaines de taons qui me tournent autour pendant toute la montée au col d'Errotzate. Vers l'heure du déjeuner, je rejoins un chouette groupe de HRPistes qui s'est déjà formé sur les 1ers jours. On monte à Okabe ensemble puis on redescend jusqu'aux chalet Pedro, je les retrouve ensuite le soir aux chalets d'Iraty où j'ai posé la tente après un bon ravito (super épicerie!) et un bon repas (food truck de crèpes..)",
         "images": [
             {
                 "url": "data/images/2025_07_09/DSC07889.jpg"
@@ -140,7 +140,7 @@
         "gpxFile": "data/gpx/activity_19692387462.gpx",
         "dayTitle": "Jour 5 | Pic d'Orhy",
         "color": "#00FFFF",
-        "dayDescription": "Etape de traversée du pic d'Orhy; le premier 2000 depuis l'océan et donc logiquement le 1er 2000 de cette traversée, avec de magnifiques passages en crète puis enfilade de cols jusqu'au refuge de Belagua. C'est beau mais l'eau commence à manquer en début d'après-midi.",
+        "dayDescription": "Etape de traversée du pic d'Orhy; le premier 2000 depuis l'océan et donc logiquement le 1er 2000 de cette traversée, avec de magnifiques passages en crète puis enfilade de cols jusqu'au refuge de Belagua. Je commence la journée avec des symptômes de déshydratation, que j'arrive à compenser en buvant beaucoup d'eau et d'électrolytes jusqu'au milieu de journée où je tombe à court. Je ne trouve quasiment pas d'eau pendant le reste de l'étape; il fait chaud et les vaches, agîtées, se jettent sur le moindre filet d'eau.",
         "images": [
             {
                 "url": "data/images/2025_07_10/DSC07914.jpg"
@@ -187,7 +187,7 @@
         "gpxFile": "data/gpx/activity_19708522718.gpx",
         "dayTitle": "Jour 6 | Massif de Larra Belagua et Cirque d'Ansabère",
         "color": "#FFFF00",
-        "dayDescription": "ça commence à ressembler à de la montagne, et on apperçoit les premiers sommets des hautes pyrénées au loin. En fin de journée, on prend un terrible orage qui nous pousse à redescendre sur le GR11",
+        "dayDescription": "Ca commence à ressembler à de la montagne, et on apperçoit les premiers sommets des hautes pyrénées au loin. On monte au col d'Equeste, puis on redescend en hors sentier sur les cabanes d'Ansabère. On passe au lac d'Acherito où on rencontre Lois, un vétéran de la HRP qui a pour projet de la réaliser en autonomie complète, on passe une petite heure à discuter avec lui, puis on reprend la route vers le col de Pau. Quelques minutes plus tard, on prend un terrible orage (grêle, éclairs très proches..). On décide de poser les tentes pendant quelques heures pour se sêcher et se réchauffer puis on redescend en fond de vallée, sur le GR11 pour se mettre à l'abri pendant la nuit.",
         "images": [
             {
                 "url": "data/images/2025_07_11/DSC07932.jpg"
@@ -216,7 +216,7 @@
         "gpxFile": "data/gpx/activity_19708562185.gpx",
         "dayTitle": "Jour 7 | Pluie et repos",
         "color": "#FFA500",
-        "dayDescription": "Après la nuit d'orage, on part vers 5h pour arriver le plus tôt possible à Candanchù, où on prévoit une demi journée de repos. Le début de l'étape est très beau mais ensuite la pluie reprends et on avance dans la vallée pour rejoindre Candanchù",
+        "dayDescription": "Après la nuit d'orage, on part vers 5h pour arriver le plus tôt possible à Candanchù, où on prévoit une demi journée de repos. Le début de l'étape est très beau mais ensuite la pluie reprends et on avance dans la vallée, côté français, pour rejoindre Candanchù. On arrive vers 11h et on réussit à récupérer une place à l'auberge, grâce à des annulations.",
         "images": [
             {
                 "url": "data/images/2025_07_12/DSC07951.jpg"
@@ -230,7 +230,7 @@
         "gpxFile": "data/gpx/activity_19743815315.gpx",
         "dayTitle": "Jour 8 | Pic du Midi d'Ossau et lac d'Arrious ",
         "color": "#800080",
-        "dayDescription": "Bien en forme grâce au repos d'hier, j'avance vite jusqu'au lac d'Arrious. C'est aussi aujourd'hui que je rencontre Louison avec qui on va beaucoup marcher pendant la traversée.",
+        "dayDescription": " Le matin, je recroise Christian au col du Somport, qui prend son petit déjeuner à l'Auberge. Dans la montée vers le col des Moines, Nino part devant et je me retrouve seul. La redescente côté français est magnifique et offre de très belles vues sur le Pic du Midi d'Ossau. Vers midi, je passe le col de Peyreget et rejoint le refuge de Pombie, où je rencontre Louison, un HRPiste qui vient de reprendre (il a fait les premières étapes en 2024 et compte finir cette année). Bien en forme grâce au repos d'hier, j'avance vite jusqu'au lac d'Arrious.",
         "images": [
             {
                 "url": "data/images/2025_07_13/DSC07956.jpg"
@@ -342,7 +342,7 @@
         "gpxFile": "data/gpx/activity_19744047990.gpx",
         "dayTitle": "Jour 10 | Les Oulettes de Gaube et le Petit Vignemale",
         "color": "#808000",
-        "dayDescription": "Après un super bivouac au lac d'Arratille, je passe les cols d'Arratille et des Mulets pour redescendre sur les Oulettes de Gaube, d'où on peut voir la magnifique face nord du Vignemale. Ensuite, je remonte vers la Hourquette d'Ossoue et pose le sac pour faire un petit détour par le Petit Vignemale (3032m). C'est le 1er 3000 que je monte en randonnée!",
+        "dayDescription": "Après un super bivouac au lac d'Arratille, je passe les cols d'Arratille et des Mulets pour redescendre sur les Oulettes de Gaube, d'où on peut voir la magnifique face nord du Vignemale. Ensuite, je remonte vers la Hourquette d'Ossoue et pose le sac pour faire un petit détour par le Petit Vignemale (3032m). C'est le 1er 3000 que je monte en randonnée! Après le refuge de Bayssellance, je retrouve Louison. On avance vers Gavarnie dans un épais brouillard avant de poser la tente près d'une petite cabane.",
         "images": [
             {
                 "url": "data/images/2025_07_15/DSC08049.jpg"
@@ -424,7 +424,7 @@
         "gpxFile": "data/gpx/activity_19794589210.gpx",
         "dayTitle": "Jour 12 | Estaubé et Pineta",
         "color": "#008080",
-        "dayDescription": "Le sac est lourd. La montée jusqu'à la Hourquette d'Alans se fait bien à un rythme tranquille car je suis accompagné. La suite est très difficile mentalement car je dois continuer seul et le terrain est tout sauf roulant. Je regarde passer le Taillon, la Brèche de Roland, Turqueroye et le Mont Perdu en me disant que je reviendrais...",
+        "dayDescription": "Le sac est lourd. La montée jusqu'à la Hourquette d'Alans se fait bien à un rythme tranquille car je suis accompagné. La suite est très difficile mentalement car je dois continuer seul et le terrain est tout sauf roulant. Je regarde passer le Taillon, la Brèche de Roland, Turqueroye et le Mont Perdu en me disant que je reviendrais... Le soir, je remonte péniblement au dessus de la vallée de la Larri. Je recontre Marisol, une écossaise qui fait le GR11, alors que je cherche un endroit pour poser la tente.",
         "images": [
             {
                 "url": "data/images/2025_07_17/DSC08112.jpg"
@@ -486,7 +486,7 @@
         "gpxFile": "data/gpx/activity_19794625306.gpx",
         "dayTitle": "Jour 13 | Parzan et lac d'Urdiceto",
         "color": "#0000FF",
-        "dayDescription": "Le matin, je descend une longue piste puis route jusqu'à Parzan; c'est long, monotone et ça fait mal aux pieds. Ensuite, il faut remonter le même type de piste jusqu'à un col. C'est une des étapes les moins intéressantes mais elle est récompensée par le superbe lac d'Urdiceto.",
+        "dayDescription": "Le matin, on descend une longue piste puis route jusqu'à Parzan; c'est long, monotone et ça fait mal aux pieds. Ensuite, il faut remonter le même type de piste jusqu'à un col. C'est une des étapes les moins intéressantes mais elle est récompensée par le superbe lac d'Urdiceto.",
         "images": [
             {
                 "url": "data/images/2025_07_18/DSC08152.jpg"
@@ -506,7 +506,7 @@
         "gpxFile": "data/gpx/activity_19794658833.gpx",
         "dayTitle": "Jour 14 | Contournement des Posets",
         "color": "#FF0000",
-        "dayDescription": "Le début de journée est facile, on a un petit groupe qui avance bien et le chemin est roulant. En fin d'après midi, je repasse en France pour me placer avant le col des Gourgs Blancs. Après le col d'Aygues Tortes, je suis totalement plongé dans le brouillard.",
+        "dayDescription": "Le début de journée est facile, on a un petit groupe qui avance bien et le chemin est roulant (avec Daniel et Marisol). En fin d'après midi, je repasse en France pour me placer avant le col des Gourgs Blancs. Après le col d'Aygues Tortes, je suis totalement plongé dans le brouillard.",
         "images": [
             {
                 "url": "data/images/2025_07_19/DSC08162.jpg"
