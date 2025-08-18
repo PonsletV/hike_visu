@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #map-container {
     height: 30vh; /* Initial height */
-    min-height: 200px;
+    min-height: 10vh;
     position: relative;
     overflow: hidden;
     /* transition: height 0.1s; */
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain; /* Prevents overscroll from affecting the whole page */
-    min-height: 100px;
+    min-height: 5%;
     box-shadow: var(--shadow-sm);
     touch-action: pan-y;
 }
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .image-info img {
     max-width: 95%;
-    max-height: 600px;
+    max-height: 700px;
     width: auto;
     height: auto;
 }

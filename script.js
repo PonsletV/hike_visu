@@ -40,8 +40,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const deltaY = e.clientY - startY;
         const newMapHeight = startMapHeight + deltaY;
 
-        const minMapHeight = 100;
-        const maxMapHeight = container.clientHeight - 100;
+        const minMapHeight = 30;
+        const maxMapHeight = container.clientHeight - minMapHeight;
 
         if (newMapHeight > minMapHeight && newMapHeight < maxMapHeight) {
             mapContainer.style.height = `${newMapHeight}px`;
