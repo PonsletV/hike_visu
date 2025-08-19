@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                     // Create a popup but don't bind it automatically
                     const popupContent = `<img src="${image.url}" style="width:100px;">`;
-                    const popup = L.popup({ autoClose: false, closeOnClick: false })
+                    const popup = L.popup({ autoClose: false, closeOnClick: false, autoPan: false })
                         .setContent(popupContent);
 
                     marker.bindPopup(popup); // Store the popup on the marker
